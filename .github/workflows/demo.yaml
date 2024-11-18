@@ -6,4 +6,7 @@ jobs:
     steps:
       - name: Print to console
         run: echo Hello GH Actions!
-  
+      - name: Print a few rows
+        run: | 
+          echo First row!
+          echo Second row!
